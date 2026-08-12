@@ -12926,6 +12926,10 @@ textarea.form-control {
   background-position: center center;
 }
 
+.portfolio-wrap .img {
+  background-size: contain;
+}
+
 .portfolio-wrap {
   display: block;
   width: 100%;
