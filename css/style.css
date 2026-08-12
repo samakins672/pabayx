@@ -12926,8 +12926,19 @@ textarea.form-control {
   background-position: center center;
 }
 
-.portfolio-wrap .img {
+.portfolio-wrap .img,
+.portfolio-entry .img {
   background-size: contain;
+  background-position: center bottom;
+  height: auto !important;
+  aspect-ratio: 3 / 4;
+}
+
+@media (max-width: 767.98px) {
+  .portfolio-wrap .img,
+  .portfolio-entry .img {
+    height: auto !important;
+  }
 }
 
 .portfolio-wrap {
